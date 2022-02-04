@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            height: 100%;
+        }
+        body{
+            overflow: hidden;
+            background: url(image/屏幕截图\ 2022-02-01\ 190148.png) repeat-x center bottom, -webkit-linear-gradient(top, skyblue, white);
+            background-size: 90% auto;
+            text-align: center;
+        }
+        h2 {
+            width: 100%;
+            float: left;
+        }
+        .tab1{
+            border-collapse: collapse;
+            margin: 60px auto;
+            float: left;
+            margin-left: 40%;
+        }
+        .tab2{
+            border-collapse: collapse;
+            margin: 60px auto;
+            float: left;
+            margin-left: 40px;
+        }
+        td{
+            border: 1px solid rgb(151, 123, 82);
+            width: 25px;
+            height: 25px;
+        }
+        .c1{
+            background:linear-gradient(to top, rgb(255, 0, 0) ,rgb(0, 0, 0));
+        }
+        .c2{
+            background:linear-gradient(to top, rgb(0, 255, 13) ,rgb(0, 0, 0));
+        }
+        .c3{
+            background:linear-gradient(to top, rgb(255, 238, 0) ,rgb(0, 0, 0));
+        }
+        .c4{
+            background:linear-gradient(to top, rgb(0, 255, 242) ,rgb(0, 0, 0));
+        }
+        .c5{
+            background:linear-gradient(to top, rgb(0, 153, 255) ,rgb(0, 0, 0));
+        }
+        .c6{
+            background:linear-gradient(to top, rgb(0, 81, 255) ,rgb(0, 0, 0));
+        }
+        .c7{
+            background:linear-gradient(to top, rgb(255, 0, 242) ,rgb(0, 0, 0));
+        }
+    </style>
+</head>
+<body>
+    <h2 id="score">分数：0</h2>
+    <h2 id="f">帧编号：0</h2>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/BLOCK_JSON.js"></script>
+    <script src="js/Block.js"></script>
+    <script src="js/Map.js"></script>
+    <script>
+        var game = new Game();
+    </script>
+</body>
+</html>
